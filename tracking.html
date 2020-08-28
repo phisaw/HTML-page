@@ -1,42 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Website for tracking workout progress">
         <title>Workout Tracker</title>
-        <style>
-            #main-header{
-                text-align:center;
-                background-color:darkslategray;
-                color:white;
-                padding:10px;
-            }
-            #main-footer{
-                text-align:center;
-                font-size:18px;
-            }
-        </style>
-</head>
 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website for tracking workout progress">
+        <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header id="main-header">
-        <h1>Workout tracker</h1>
+    <header>
+        <h1 id="main-header">Workout tracker</h1>
+        <nav id="links">
+            <a href="index.html">Start page</a>
+            <a href="tracking.html">Workout tracking</a>
+            <a href="profile.html">Profile</a>
+            <a href="">Sign out</a>
+        </nav>
     </header>
 
     <main>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="index.html">Start page</a></li>
-                <li><a href="tracking.html">Workout tracking</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="">Sign out</a></li>
-                <hr>
-                
-            </ul>
-        </nav>
-    
-        <br>
-    
         <sl>
             <li><a href="">Bench press</a></li>
             <form action="benchpress.php" method="post">

@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited{
+    color: purple;
+}
+
+#main-header{
+    text-align:center;
+    background-color:darkslategray;
+    color:white;
+    padding:10px;
+}
+
+#main-footer{
+    text-align:center;
+    font-size:18px;
+}
+
+body{
+
+}
+
+.menuLinks{
+    text-align: center;
+    
+}
