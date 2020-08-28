@@ -21,46 +21,50 @@
     <header id="main-header">
         <H1>Profile page</H1>
     </header>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum modi! Et inventore magnam optio porro ipsum, provident eaque distinctio voluptas consectetur. Inventore enim sit eius eos fugiat. Distinctio, quod?</p>
-<hr>
 
-    <nav>
-    <ul>
-        <li><a href="index.html">Start page</a></li>
-        <li><a href="tracking.html">Workout tracking</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="">Sign out</a></li>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum modi! Et inventore magnam optio porro ipsum, provident eaque distinctio voluptas consectetur. Inventore enim sit eius eos fugiat. Distinctio, quod?</p>
+        <hr>
         
-    </ul>
-    </nav>
+            <nav>
+            <ul>
+                <li><a href="index.html">Start page</a></li>
+                <li><a href="tracking.html">Workout tracking</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="">Sign out</a></li>
+                
+            </ul>
+            </nav>
+        
+            <form action="profileform.php" method="post">
+                <div>
+                    <label>First name</label>
+                    <input type="text" name="firstName"
+                    placeholder="Enter first name">
+                </div>
+                <div>
+                    <label>Last name</label>
+                    <input type="text" name="lastName"
+                    placeholder="Enter last name">
+                </div>
+                <div>
+                    <label>Weight</label>
+                    <input type="text" name="bWeight"
+                    placeholder="Enter bodyweight">
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <select name="gender">
+                        <option value="other">Other</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+    </main>
 
-    <form action="profileform.php" method="post">
-        <div>
-            <label>First name</label>
-            <input type="text" name="firstName"
-            placeholder="Enter first name">
-        </div>
-        <div>
-            <label>Last name</label>
-            <input type="text" name="lastName"
-            placeholder="Enter last name">
-        </div>
-        <div>
-            <label>Weight</label>
-            <input type="text" name="bWeight"
-            placeholder="Enter bodyweight">
-        </div>
-        <div>
-            <label>Gender</label>
-            <select name="gender">
-                <option value="other">Other</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <br>
-            <input type="submit" value="Submit">
-        </div>
-    </form>
     <footer id="main-footer">
         <p>&copy; 2020, Workout Buddy</p>
     </footer>

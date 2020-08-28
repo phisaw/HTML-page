@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="description" content="Website for tracking workout progress">
         <title>Workout Tracker</title>
         <style>
             #main-header{
@@ -20,44 +21,46 @@
     <header id="main-header">
         <h1>Workout tracker</h1>
     </header>
+
+    <main>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start page</a></li>
+                <li><a href="tracking.html">Workout tracking</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="">Sign out</a></li>
+                <hr>
+                
+            </ul>
+        </nav>
     
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="index.html">Start page</a></li>
-            <li><a href="tracking.html">Workout tracking</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="">Sign out</a></li>
-            <hr>
-            
-        </ul>
-    </nav>
-
-    <br>
-
-    <sl>
-        <li><a href="">Bench press</a></li>
-        <form action="benchpress.php" method="post">
-            <div>
-                <label>Weigth</label>
-                <input type="text" name="bench-weigth-count">
-            </div>
-            <div>
-                <label>Reps</label>
-                <input type="text" name="bench-rep-count">
-            </div>
-            <div>
-                <label>Set</label>
-                <input type="text" name="bench-set-count">
-            </div>
-            
-        </form>
         <br>
-        <li><a href="">Deadlift</a></li>
+    
+        <sl>
+            <li><a href="">Bench press</a></li>
+            <form action="benchpress.php" method="post">
+                <div>
+                    <label>Weigth</label>
+                    <input type="text" name="bench-weigth-count">
+                </div>
+                <div>
+                    <label>Reps</label>
+                    <input type="text" name="bench-rep-count">
+                </div>
+                <div>
+                    <label>Set</label>
+                    <input type="text" name="bench-set-count">
+                </div>
+                
+            </form>
+            <br>
+            <li><a href="">Deadlift</a></li>
+            <br>
+            <li><a href="">Squat</a> </li>
+        </sl>
         <br>
-        <li><a href="">Squat</a> </li>
-    </sl>
-    <br>
+    </main>
     
     <footer id="main-footer">
         <p>&copy; 2020, Workout Buddy</p>
